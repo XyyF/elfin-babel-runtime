@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-jsx-pragma",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/XyyF/elfin-babel-runtime#readme",
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "^7.18.6",
-    "@elfiner/jsx-pragma": "^1.0.0",
+    "@elfiner/jsx-pragma": "^1.0.1",
     "babel-plugin-jsx-pragmatic": "^1.0.2"
   }
 }
