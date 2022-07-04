@@ -3,10 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/plugin-transform-react-jsx': ^7.18.6
   '@elfiner/jsx-pragma': ^1.0.0
+  babel-plugin-jsx-pragmatic: ^1.0.2
 
 dependencies:
   '@babel/plugin-transform-react-jsx': 7.18.6
   '@elfiner/jsx-pragma': 1.0.0
+  babel-plugin-jsx-pragmatic: 1.0.2
 
 packages:
 
@@ -66,6 +68,16 @@ packages:
 
   /@elfiner/jsx-pragma/1.0.0:
     resolution: {integrity: sha512-7oiSjAOSpmuCWUiZjG7CYPlubtDU5jYiIinn/PA4+lhxom7ZmRPKD/OHZicYO0wd4uypMrL4V+dQO4F7Y4wbiw==}
+    dev: false
+
+  /babel-plugin-jsx-pragmatic/1.0.2:
+    resolution: {integrity: sha1-QeK+uGQiNfNLKnqxLKOeByAbjlk=}
+    dependencies:
+      babel-plugin-syntax-jsx: 6.18.0
+    dev: false
+
+  /babel-plugin-syntax-jsx/6.18.0:
+    resolution: {integrity: sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=}
     dev: false
 
   /to-fast-properties/2.0.0:
